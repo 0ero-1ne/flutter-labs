@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "12530160530",
+    "project_id": "sabertooth-donut",
+    "storage_bucket": "sabertooth-donut.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12530160530:android:3251a37c0b3290287aa74b",
+        "android_client_info": {
+          "package_name": "com.example.sabertooth_donut"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4VkPu0RDh-HC8aPsR4aC_Alhow-i6aGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
