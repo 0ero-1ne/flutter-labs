@@ -11,7 +11,7 @@ class FirestorePage extends StatelessWidget {
   Widget build(BuildContext context) {
     final date = Timestamp.fromDate(DateTime.now());
     final todoRepo = Get.put(TodoRepository());
-    const task = 'Test task';
+    const task = 'ggg';
 
     final todo = TodoModel(task: task, date: date);
 

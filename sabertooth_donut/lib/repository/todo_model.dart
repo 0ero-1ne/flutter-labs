@@ -1,18 +1,22 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class TodoModel {
-  final String? task;
-  final Timestamp? date;
+  String? task;
+  Timestamp? date;
 
-  const TodoModel({
+  TodoModel({
     required this.task,
     required this.date
   });
 
-  toJson() {
+  Map<String, Object?> toJson() {
     return {
       "date": date,
       "task": task
     };
+  }
+
+  String toStringJson() {
+    return "{date: ${date.toString()}, task: $task}";
   }
 }

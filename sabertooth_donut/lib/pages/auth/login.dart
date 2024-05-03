@@ -50,6 +50,7 @@ class LoginPage extends StatelessWidget {
                   Container(
                     margin: const EdgeInsets.only(bottom: 20),
                     child: TextFormField(
+                      key: const Key("login"),
                       decoration: const InputDecoration(
                         contentPadding: EdgeInsets.symmetric(horizontal: 25, vertical: 20),
                         enabledBorder: OutlineInputBorder(
@@ -85,6 +86,7 @@ class LoginPage extends StatelessWidget {
                   Container(
                     margin: const EdgeInsets.only(bottom: 50),
                     child: TextFormField(
+                      key: const Key("password"),
                       obscureText: true,
                       decoration: const InputDecoration(
                         contentPadding: EdgeInsets.symmetric(horizontal: 25, vertical: 20),
@@ -124,6 +126,7 @@ class LoginPage extends StatelessWidget {
                           bloc: bloc,
                           builder: (context, state) => 
                             FilledButton(
+                              key: const Key("login_button"),
                               style: OutlinedButton.styleFrom(
                                 padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 15)
                               ),
